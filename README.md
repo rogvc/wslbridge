@@ -34,7 +34,7 @@ Also, I recommend using the cross-platform [PowerShell 7](https://docs.microsoft
 
    - Try running `sudo apt install net-tools` if you don't have it installed already.
 
-3. Download [wslbridge.ps1](https://raw.githubusercontent.com/rogvc/wslbridge/main/wslbridge.ps1) somewhere in your computer.
+3. Download the latest [wslbridge.ps1](https://github.com/rogvc/wslbridge/releases/tag/v0.1) file somewhere in your computer.
 
    - I recommend saving it in `C:\Users\{YOUR_USER}\.wslconfig` or somewhere you usually have your development tools installed.
 
