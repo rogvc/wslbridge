@@ -20,7 +20,7 @@ The tool perform the following steps:
 4. Remove previously added firewall rules
 5. Add new Firewall Rules
 
-Some of the steps require an elevated (with administrator rights) terminal window to work. The script will automatically prompt the user to open an elevated PowerShell window if the current one isn't elevated.
+Some of the steps require an elevated (with administrator rights) terminal window to work. If you're uncomfortable with the idea of running this file (and with the multiple warnings that Windows gives you about running script files downloaded from the web, it wouldn't surprise me if you are), feel free to look through the file and learn exactly what the script is doing. That being said, the script will automatically prompt the user to open an elevated PowerShell window if the current one isn't elevated.
 
 ## How to set it up:
 
@@ -37,6 +37,7 @@ Also, I recommend using the cross-platform [PowerShell 7](https://docs.microsoft
 3. Download the latest [wslbridge.ps1](https://github.com/rogvc/wslbridge/releases/tag/v0.1) file somewhere in your computer.
 
    - I recommend saving it in `C:\Users\{YOUR_USER}\.wslconfig` or somewhere you usually have your development tools installed.
+   - You might need to edit the file for Windows to allow you to run it, since it's not digitally signed. If you run into this issue, simply open the script in your code editor of choice and hit save to make the file yours.
 
 4. [Add the script to your PATH](https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53#:~:text=May%2025%2C%202016%20%C2%B7%202%20min%20read%201,and%20add%20the%20file%20path%20to%20the%20list) for easy access.
 
